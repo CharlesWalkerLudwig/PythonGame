@@ -1,7 +1,6 @@
 from random import randint
 score = 0;
-rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
-#print(["red", "orange", "yellow", "green", "blue", "indigo", "violet"])
+rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"] 
 
 def colorGame():
     index = randint(0,len(rainbow)-1)
